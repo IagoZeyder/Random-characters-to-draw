@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Sorteio Online</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>Sorteio para Desenhar</h1>
+        </div>
+            <div class="fundo" id="fundo">
+                <div class="text">
+                <p id="nome">Digite seu nome</p> <input type="text" name="nome" id="pegarNome">
+                <br>
+                <br>
+                <p>click para sortear</p><input type="button" onclick="sorteio()" value="Sortear" class="botao">    
+                </div>
+                <br>
+                <div id="resposta">
+                    <p id="mostrarNome"></p>
+                    <br>                    
+                    <p id="raca"></p>
+                    <p id="coresCabelo"></p>
+                    <p id="coresOlhos"></p>
+                    <p id="tipo"></p>
+                    <p id="genero"></p>
+                    <p id="personalidade"></p>
+                    <p id="fisico"></p>
+                    <p id="cenario"></p>
+                    <p id="clima"></p>
+                    <p id="turno"></p>
+                </div>
+            </div>
+
+
+    </nav>
+    <script src="js.js"></script>
+</body>
+</html>
