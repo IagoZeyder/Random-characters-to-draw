@@ -69,10 +69,12 @@
 }
 #pegarNome{
     background-color: rgb(59, 66, 87);  
-    color: white;
+    color: rgb(255, 255, 255);
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    text-align: center;
+    
 
 }
 .text .botao{
@@ -81,6 +83,8 @@
     border-width: 0px;
     border-style: solid;
     border-color: black;
+    color: white;
+    font-weight:bolder;
 }
 .text .botao:hover{
     cursor: pointer;
