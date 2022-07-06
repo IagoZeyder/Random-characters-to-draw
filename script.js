@@ -145,11 +145,13 @@ function sorteio() {
     }
     
 }
-
-function trocarCor{
-    setTimeout(function() {
-        var x = new Date().toLocaleTimeString();
-        document.getElementById('rel').innerHTML = x;
-    }, 3000);
+var corPrincipal = true
+function trocarCor(){
+    if(corPrincipal == true){    
+        setTimeout(function() {
+            document.getElementById('fundo').style.backgroundColor = 'rgb(59, 66, 87)'
+            document.getElementById('navbar').style.backgroundColor = 'rgb(255, 255, 255)'
+        }, 3000);
+    }
 }
 
