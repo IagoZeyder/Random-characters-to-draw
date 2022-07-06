@@ -85,6 +85,7 @@
     border-color: black;
     color: white;
     font-weight:bolder;
+    margin-bottom: 10px;
 }
 .text .botao:hover{
     cursor: pointer;

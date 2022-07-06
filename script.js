@@ -145,13 +145,16 @@ function sorteio() {
     }
     
 }
-var corPrincipal = true
-function trocarCor(){
-    if(corPrincipal == true){    
+function trocarCor(){         
         setTimeout(function() {
+            document.getElementById('titulo').style.color = 'white'
+            document.getElementById('navbar2').style.backgroundColor = 'rgb(255, 255, 255)'
             document.getElementById('fundo').style.backgroundColor = 'rgb(59, 66, 87)'
-            document.getElementById('navbar').style.backgroundColor = 'rgb(255, 255, 255)'
-        }, 3000);
-    }
+            document.getElementById('container').style.backgroundColor = 'rgb(59, 66, 87)'            
+            document.getElementById('botao').style.backgroundColor = 'rgb(255, 255, 255)'   
+            document.getElementById('botao').style.color = 'rgb(0,0,0)'   
+                     
+        }, 0000);
+            
 }
 

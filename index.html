@@ -8,7 +8,7 @@
     <title>Sorteio Online</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar2">
         <div class="container" id="container">
             <h1 id="titulo">Sorteio para Desenhar</h1>
         </div>
@@ -17,7 +17,8 @@
                 <p id="nome">Digite seu nome</p> <input type="text" name="nome" id="pegarNome" placeholder="digite seu nome">
                 <br>
                 <br>
-                <p></p><input type="button" onclick="sorteio()" value="Sortear" class="botao">    
+            </p><input type="button" onclick="sorteio(), trocarCor()" value="Sortear" class="botao" id="botao">    
+            </p><input type="button" onclick="sorteio(), trocarCor()" value="limpar" class="botao" id="botao">    
                 </div>
                 <br>
                 <div id="resposta">
@@ -35,8 +36,6 @@
                     <p id="turno"></p>
                 </div>
             </div>
-
-
     </nav>
     <script src="script.js"></script>
 </body>
